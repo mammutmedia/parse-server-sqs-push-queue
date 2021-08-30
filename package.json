@@ -1,6 +1,6 @@
 {
   "name": "parse-server-sqs-push-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Amazon SQS push queue for parse-server",
   "main": "index.js",
   "scripts": {
