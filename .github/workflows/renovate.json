@@ -1,0 +1,31 @@
+{
+    "extends": [
+      "config:base"
+    ],
+    "labels": ["dependencies"],
+    "postUpdateOptions": ["yarnDedupeFewer"],
+    "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
+    "stabilityDays": 3,
+    "separateMajorMinor": true,
+    "separateMultipleMajor": true,
+    "separateMinorPatch": true,
+    "automerge": true,
+    "lockFileMaintenance": {
+      "automerge": true
+    },
+    "timezone": "Europe/Berlin",
+    "vulnerabilityAlerts": {
+      "labels": ["security"],
+      "assignees": ["@Mammut-Felix"]
+    },
+    "ignorePaths": [
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/vendor/**",
+      "**/examples/**",
+      "**/__tests__/**",
+      "**/test/**",
+      "**/tests/**",
+      "**/__fixtures__/**"
+    ]
+  }
