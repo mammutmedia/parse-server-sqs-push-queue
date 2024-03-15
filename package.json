@@ -9,7 +9,7 @@
   "author": "Felix Nithammer <f.nithammer@mammutmedia.eu>",
   "license": "MIT",
   "dependencies": {
-    "sqs-consumer": "5.7.0"
+    "sqs-consumer": "9.1.0"
   },
   "peerDependencies": {
     "parse-server": "*"
